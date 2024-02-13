@@ -1,0 +1,103 @@
+* {
+    /* outline: red solid 1px; */
+    font-family: "Single Day", cursive;
+}
+
+html {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #ffd9cc;
+}
+
+.container {
+	height: 100%;
+}
+
+.header_text {
+	color: #945140;
+    font-weight: bold;
+  
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.openGiftButton {
+    width: 150px;
+    height: 50px;
+    font-size: 1.25rem;
+    background-color: #843179;
+    border: none;
+    box-shadow: 0 3px 5px grey;
+    color: #ffd7ff;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.btn {
+    /* padding: 32px 32px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 1rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 5px grey;
+
+	margin: 1rem;
+
+}
+
+.btn:hover {
+	background-color: white;
+	color: white;
+}
+
+#yesButton {
+	background-color: #2bd33c;
+}
+
+#noButton {
+	background-color: #fd3b54;
+    transition: 0.5s;
+}
+
+.gif_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#gif {
+    width: 300px;
+}
+
+.icon {
+    width: 50px;
+}
